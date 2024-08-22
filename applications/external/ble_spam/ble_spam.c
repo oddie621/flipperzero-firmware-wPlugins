@@ -119,28 +119,28 @@ static Attack attacks[] = {
             },
     },
     {
-        .title = "Vibrate 'em All",
-        .text = "Activate all LoveSpouse toys",
-        .protocol = &protocol_lovespouse,
+        .title = "BLUETOOTH",
+        .text = "BLUETOOTH",
+        .protocol = &BLUETOOTH,
         .payload =
             {
                 .random_mac = true,
-                .cfg.lovespouse =
+                .cfg.BLUETOOTH =
                     {
-                        .state = LovespouseStatePlay,
+                        .state = BLUETOOTH,
                     },
             },
     },
     {
-        .title = "Denial of Pleasure",
-        .text = "Disable all LoveSpouse toys",
-        .protocol = &protocol_lovespouse,
+        .title = "BLUETOOTH",
+        .text = "BLUETOOTH",
+        .protocol = &BLUETOOTH,
         .payload =
             {
                 .random_mac = true,
-                .cfg.lovespouse =
+                .cfg.BLUETOOTH =
                     {
-                        .state = LovespouseStateStop,
+                        .state = BLUETOOTH,
                     },
             },
     },
